@@ -6,7 +6,7 @@ body {
 
 /* Header */
 .header {
-    background-color: #1F2937;
+    background: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,37 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 10px;
+}
+
+/* Container */ 
+
+.container {
+    background: #1F2937;
+    display: flex;
+}
+
+.container h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.container p {
+    font-size: 18px;
+    color: #bec3ce;
+}
+
+.container button {
+    background-color: lightblue;
+    padding: 8px 32px;
+    border-radius: 6px;
+    border: none;
+}
+
+.container .image {
+    width: 300px;
+    height: 150px;
 }
 
 
