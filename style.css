@@ -7,11 +7,15 @@ body {
 /* Header */
 .header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    
 }
 
 .header a {
@@ -22,6 +26,8 @@ body {
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 10px;
 }
 
 
