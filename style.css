@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 4em 4em 4em;
+    padding: 0 4em;
 }
 
 .logo {
@@ -37,7 +37,7 @@ ul {
 .container {
     background: #1F2937;
     display: flex;
-    padding: 0 4em;
+    padding: 4em;
 }
 
 .container h2 {
@@ -50,6 +50,8 @@ ul {
 .container p {
     font-size: 18px;
     color: #bec3ce;
+    margin: 0;
+    width: 80%;
 }
 
 .container button {
@@ -59,9 +61,19 @@ ul {
     border: none;
 }
 
-.container .image {
-    width: 300px;
-    height: 150px;
+.image, .text {
+    width: 50%;
+    height: auto;
+}
+
+.text p {
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    margin: 20px 0;
+}
+
+.container .image img{
+    width: 100%;
+    height: auto;
 }
 
 
