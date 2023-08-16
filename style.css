@@ -176,3 +176,14 @@ ul {
 .action #playnow {
     margin: 40px 0 0 0;
 }
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #bac0ca;
+    padding: 20px 0;
+}
