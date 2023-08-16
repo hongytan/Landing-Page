@@ -62,9 +62,8 @@ ul {
     border: none;
 }
 
-.image, .text {
-    width: 50%;
-    height: auto;
+.image {
+    min-width: 700px;
 }
 
 .text p {
