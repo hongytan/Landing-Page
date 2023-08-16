@@ -10,11 +10,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 4em 4em 4em;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header a {
@@ -26,7 +28,7 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 16px;
 }
 
 /* Container */ 
@@ -34,6 +36,7 @@ ul {
 .container {
     background: #1F2937;
     display: flex;
+    padding: 0 4em;
 }
 
 .container h2 {
@@ -49,7 +52,7 @@ ul {
 }
 
 .container button {
-    background-color: lightblue;
+    background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 6px;
     border: none;
