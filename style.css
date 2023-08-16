@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* Header */
 .header {
     background: #1F2937;
@@ -140,4 +144,35 @@ ul {
     float: right;
     margin: 10px 0 0 0;
     color: black;
+}
+
+/* Action */
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 4em 8em;
+    color: white;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: white;
+    border: 1px solid white;
+    height: 25px;
+    padding: 0 25px;
+}
+
+.action #subtext {
+    color: #d7dee9;
+    margin: 0 0 40px 0;
+}
+
+.action #playnow {
+    margin: 40px 0 0 0;
 }
